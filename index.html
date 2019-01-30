@@ -71,14 +71,14 @@ $(document).ready(function() {
                });</script>
         </div>
 
-        <div class="r t-rec t-rec_pt_90 t-rec_pb_90 geometria"
-             style="padding-top:90px;padding-bottom:90px; background: #fafafa;"
+        <div class="r t-rec t-rec_pt_90 t-rec_pb_90"
+             style="padding-top:70px;padding-bottom:90px; background: #fafafa;"
              data-record-type="469" data-bg-color="#efefef" data-animationappear="off">
             <div>
                 <div class="t-container t-align_center">
                     <div class="t-col t-col_8 t-prefix_2">
                         <div class="t469__title t-title t-title_lg t-margin_auto" field="title" style="">
-                            <div style="font-size:35px;" data-customstyle="yes">
+                            <div style="font-size:35px; text-shadow: 1px 1px 0 #fff, 2px 2px 0 #000;" data-customstyle="yes">
                                 <span data-redactor-tag="span" style="color: #81c5c5;">
                                     Задайте простой вопрос
                                 </span><br> А ЗАЧЕМ ВАМ НУЖЕН САЙТ?
@@ -86,7 +86,7 @@ $(document).ready(function() {
                             </div>
                         </div>
 
-                        <div class="t469__descr t-descr t-descr_md t-margin_auto" field="descr" style="">
+                        <div class="t469__descr t-descr t-descr_md t-margin_auto example" field="descr" style="">
                             1. Для работы.<br>
                             То есть для бизнеса, для продаж, для заработка.<br>
                             2. Для души!<br>
@@ -228,8 +228,8 @@ $(document).ready(function() {
                         <i class="fa fa-vk fa-1x" aria-hidden="true"></i>
                     </a>
                     <a href="https://www.instagram.com/klimentovak/">
-                    <i class="fa fa-instagram fa-1x" aria-hidden="true"></i>
-                        </a>
+                        <i class="fa fa-instagram fa-1x" aria-hidden="true"></i>
+                    </a>
                     <a href="https://api.whatsapp.com/send?phone=79788221311">
 
                         <i class="fa fa-whatsapp fa-1x" aria-hidden="true"> WhatsApp </i>
@@ -239,5 +239,19 @@ $(document).ready(function() {
 
         </div>
     </footer>
+    <script>
+$.fn.animate_Text = function() {
+  var string = this.text();
+  return this.each(function(){
+   var $this = $(this);
+   $this.html(string.replace(/./g, '<span class="new">$&</span>'));
+   $this.find('span.new').each(function(i, el){
+    setTimeout(function(){ $(el).addClass('div_opacity'); }, 20 * i);
+   });
+  });
+ };
+ $('.example').show();
+ $('.example').animate_Text();</script>
+
 </body>
 </html>
