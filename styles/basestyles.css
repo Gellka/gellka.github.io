@@ -1,5 +1,4 @@
-﻿@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700&subset=latin,cyrillic);
-@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+﻿@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Shadows+Into+Light');
 .t-body {
     margin: 0
 }
@@ -44,7 +43,7 @@
 }
 
 .t-text {
-    font-family: 'Major Mono Display',Arial,sans-serif;
+    font-family: 'Dancing Script';
     font-weight: 300;
     color: #000
 }
@@ -74,7 +73,7 @@
 }
 
 .t-text-impact {
-    font-family: 'Roboto',Arial,sans-serif;
+    font-family: 'Dancing Script';
     font-weight: 300;
     color: #000
 }
@@ -100,7 +99,7 @@
 }
 
 .t-name {
-    font-family: 'Roboto',Arial,sans-serif;
+    font-family: 'Dancing Script';
     font-weight: 600;
     color: #000
 }
@@ -157,7 +156,7 @@
 }
 
 .t-title {
-    font-family: 'Roboto',Arial,sans-serif;
+    font-family: 'Dancing Script';
     font-weight: 600;
     color: #000
 }
@@ -201,7 +200,7 @@
 }
 
 .t-descr {
-    font-family: 'Roboto',Arial,sans-serif;
+    font-family: 'Shadows Into Light';
     font-weight: 300;
     color: #000
 }
@@ -616,7 +615,8 @@
     .t-records ul {
         padding-left: 20px;
         margin-top: 30px;
-        margin-bottom: 10px
+        margin-bottom: 10px;
+        font-family: 'Shadows Into Light';
     }
 
 .t-cover {
@@ -3458,7 +3458,7 @@ ul {
     width: 100%;
     font-size: 0.938rem;
     height: auto;
-    padding: 50px 0 30px;
+    padding: 70px 0 30px;
     color: #adadad;
 }
 
