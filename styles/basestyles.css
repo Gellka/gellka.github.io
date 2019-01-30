@@ -168,7 +168,8 @@
 
 .t-title_xs {
     font-size: 42px;
-    line-height: 1.23
+    line-height: 1.23;
+    text-shadow: 1px 1px 0 #fff, 2px 2px 0 #000;
 }
 
 .t-title_sm {
@@ -197,6 +198,7 @@
     margin-top: -40px;
     margin-bottom: 30px;
     color: black;
+    text-shadow: 1px 1px 0 #fff, 2px 2px 0 #000;
 }
 
 .t-descr {
@@ -2786,7 +2788,7 @@ img:not([src]) {
 }
 
 .t469__descr {
-    margin-top: 40px
+    margin-top: -10px
 }
 
 .t469 .t-btn {
@@ -3488,3 +3490,22 @@ ul {
 a {
     color: #adadad;
 }
+
+.example .new {
+    opacity: 0;
+}
+
+.example {
+    padding: 20spx;
+    width: 651px;
+    display: none;
+}
+
+    .example .div_opacity {
+        -webkit-transition: opacity .2s ease-in-out;
+        -moz-transition: opacity .2s ease-in-out;
+        -ms-transition: opacity .2s ease-in-out;
+        -o-transition: opacity .2s ease-in-out;
+        transition: opacity .2s ease-in-out;
+        opacity: 1;
+    }
