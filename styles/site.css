@@ -1,0 +1,76 @@
+﻿body {
+    margin: 0
+}
+
+
+
+@media screen and (min-width: 980px) {
+    .t-records {
+        opacity: 0;
+    }
+
+    .t-records_animated {
+        -webkit-transition: opacity ease-in-out .2s;
+        -moz-transition: opacity ease-in-out .2s;
+        -o-transition: opacity ease-in-out .2s;
+        transition: opacity ease-in-out .2s;
+    }
+
+    .t-records.t-records_visible {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    #rec78838964 .t504__line
+
+{
+    height:auto;
+}
+
+}
+
+
+.t-cover__filter {
+    height: 100vh;
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.50), rgba(0,0,0,0.60));
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.50), rgba(0,0,0,0.60));
+    background-image: -o-linear-gradient(top, rgba(0,0,0,0.50), rgba(0,0,0,0.60));
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.50), rgba(0,0,0,0.60));
+    background-image: linear-gradient(top, rgba(0,0,0,0.50), rgba(0,0,0,0.60));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#7f000000', endColorstr='#66000000'
+}
+
+.t-cover__wrapper t-valign_middle {
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+.r t-rec t-rec_pt_90 t-rec_pb_90 r_hidden r_anim {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.filter-styles {
+    height: 100vh;
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.70), rgba(0,0,0,0.70));
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.70), rgba(0,0,0,0.70));
+    background-image: -o-linear-gradient(top, rgba(0,0,0,0.70), rgba(0,0,0,0.70));
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.70), rgba(0,0,0,0.70));
+    background-image: linear-gradient(top, rgba(0,0,0,0.70), rgba(0,0,0,0.70));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#4c000000', endColorstr='#4c000000;
+}
+
+.filter-styles {
+    height: 60vh background-image: -moz-linear-gradient(top, rgba(34,150,227,0.80), rgba(0,0,0,0.80));
+    background-image: -webkit-linear-gradient(top, rgba(34,150,227,0.80), rgba(0,0,0,0.80));
+    background-image: -o-linear-gradient(top, rgba(34,150,227,0.80), rgba(0,0,0,0.80));
+    background-image: -ms-linear-gradient(top, rgba(34,150,227,0.80), rgba(0,0,0,0.80));
+    background-image: linear-gradient(top, rgba(34,150,227,0.80), rgba(0,0,0,0.80));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#332296e3', endColorstr='#33000000;
+}
+
+
+
+
