@@ -2402,7 +2402,7 @@ img:not([src]) {
 }
 
 .t-rec_pb_90 {
-    padding-bottom: 90px
+    padding-bottom: 30px
 }
 
 .t-rec_pb_105 {
@@ -3447,10 +3447,11 @@ ul {
     display: block;
 }
 
-.cats {
+.examples2 {
     background: url(../images/white-marble.png) center center;
     background-size: 100% auto;
     max-height: 50%;
+    padding-top: 120px;
 }
 
 .site-footer {
@@ -3467,7 +3468,7 @@ ul {
 .fa-vk {
     color: #adadad;
     
-    margin-right: 10px;
+
 }
 
 .fa-whatsapp {
@@ -3499,6 +3500,7 @@ a {
     padding: 20spx;
     width: 87%;
     display: none;
+    color: black;
 }
 
     .example .div_opacity {
@@ -3509,3 +3511,23 @@ a {
         transition: opacity .2s ease-in-out;
         opacity: 1;
     }
+
+
+.fonText {
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    Font-weight: 700;
+}
+
+.bodyText {
+    padding-top: 70px;
+    padding-bottom: 90px;
+    background: #fafafa;
+}
+
+.bodyText2 {
+    font-size: 35px;
+    text-shadow: 1px 1px 0 #fff, 2px 2px 0 #000;
+}
+
