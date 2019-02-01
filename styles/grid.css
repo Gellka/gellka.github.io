@@ -320,12 +320,9 @@ a, b, blockquote, center, code, div, h1, h2, h3, h4, h5, h6, i, img, p, pre, spa
     }
 
     .t-col_12 {
-        max-width: 940px
+        max-width: 1100px
     }
 
-    .t-prefix_1 {
-        padding-left: 80px
-    }
 
     .t-prefix_2 {
         padding-left: 160px
